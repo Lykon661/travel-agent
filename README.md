@@ -1,6 +1,6 @@
 # travel-agent
 
-这是一个基于 Python 的旅行助手项目。
+根据https://github.com/datawhalechina/hello-agents完成的 Python 旅行agent。
 
 ## 项目文件
 
@@ -17,9 +17,9 @@ pip install -r requirements.txt
 
 运行前需要配置以下环境变量：
 
-- `MINIMAX_API_KEY`
-- `MINIMAX_BASE_URL`（可选）
-- `MINIMAX_MODEL_ID`（可选）
+- `API_KEY`
+- `BASE_URL`
+- `MODEL_ID`
 - `TAVILY_API_KEY`
 
 ## 运行方式
