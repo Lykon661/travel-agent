@@ -301,12 +301,12 @@ import re
 
 # --- 1. 配置LLM客户端 ---
 # 请通过环境变量配置凭证，避免将密钥写入源码
-API_KEY = os.environ.get("MINIMAX_API_KEY")
-BASE_URL = os.environ.get("MINIMAX_BASE_URL", "https://api.minimaxi.com/v1")
-MODEL_ID = os.environ.get("MINIMAX_MODEL_ID", "MiniMax-M2.7")
+API_KEY = os.environ.get("API_KEY")
+BASE_URL = os.environ.get("BASE_URL")
+MODEL_ID = os.environ.get("MODEL_ID")
 
 if not API_KEY:
-    raise RuntimeError("未配置 MINIMAX_API_KEY 环境变量。")
+    raise RuntimeError("未配置 API_KEY 环境变量。")
 
 
 llm = OpenAICompatibleClient(
