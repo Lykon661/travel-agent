@@ -1,6 +1,6 @@
 # travel-agent
 
-根据https://github.com/datawhalechina/hello-agents完成的 Python 旅行agent。
+根据https://github.com/datawhalechina/hello-agents 完成的 Python 旅行agent。
 
 ## 项目文件
 
